@@ -1,0 +1,1426 @@
+/**
+ * [Table of contents]
+ *
+ * [&. Content / #key]
+ * [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ * Summary:
+ *
+ *  0. VARIABLE LESS
+ *    - 0.1. Color
+ *  1. RESPONSIVE SCREEN
+ *    - 1.0. Media screen min width 1600px
+ *    - 1.1. Media screen max width 1024px
+ *    - 1.2. Media screen max width 768px
+ *    - 1.3. Media screen max width 767px
+ *    - 1.4. Media screen max width 600px
+ *    - 1.5. Media screen max width 480px
+ *    - 1.6. Media screen max width 414px
+ *    - 1.7. Media screen max width 380px
+ *    - 1.8. Media screen max width 320px
+ */
+
+/*=====================================
+=            VARIABLE LESS            =
+=====================================*/
+
+/*----------  0.1. Color  ----------*/
+
+/*----------  0.2. Font  ----------*/
+
+/*----------  0.1. Color  ----------*/
+
+/*=====  End of VARIABLE LESS  ======*/
+
+/*=========================================
+=            RESPONSIVE SCREEN            =
+=========================================*/
+
+/*----------  1.0. Media screen min width 1600px  ----------*/
+
+@media screen and (min-width: 1600px) {
+    /********************* HOME PAGE ***********************/
+
+    .homepage-default .img-logo {
+        margin-bottom: 50px;
+    }
+    .homepage-default .main-title .text {
+        font-size: 4rem;
+    }
+    .homepage-default .sub-title {
+        font-size: 1.8rem;
+
+        margin-top: 25px;
+    }
+    .homepage-default .btn {
+        margin-top: 50px;
+    }
+    .about-us-wrapper .right-image {
+        top: 0;
+
+        width: 65%;
+    }
+    .about-us-wrapper .right-image:hover {
+        top: 30px;
+        left: 670px;
+    }
+    .about-us-wrapper .right-image:hover .border {
+        top: -30px;
+        left: 30px;
+    }
+    .about-us-wrapper .right-image:hover .image-1 {
+        bottom: -50px;
+        left: -50px;
+    }
+    .banner-1 .image-wrapper {
+        -webkit-transform: translateX(-760px);
+           -moz-transform: translateX(-760px);
+            -ms-transform: translateX(-760px);
+             -o-transform: translateX(-760px);
+                transform: translateX(-760px);
+    }
+    .banner-1-wrapper .content-wrapepr {
+        width: 100%;
+    }
+    /********************* HOME PAGE ***********************/
+
+    .background-slide .homepage-banner-warpper {
+        max-width: 800px;
+    }
+    .background-slide .title {
+        font-size: 4rem;
+    }
+    .background-slide .subtitle {
+        font-size: 1.6rem;
+    }
+    .background-slide .group-btn {
+        margin-top: 50px;
+    }
+}
+
+/*----------  1.1. Media screen max width 1024px  ----------*/
+
+@media screen and (max-width: 1024px) {
+    /********************* HOME PAGE ***********************/
+
+    .about-us-wrapper .left-infomation {
+        width: 50%;
+    }
+    .about-us-wrapper .right-image {
+        top: 50%;
+        left: calc(50% + 30px);
+
+        -webkit-transform: translateY(-50%);
+           -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+             -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+    .banner-1 .image-wrapper {
+        display: none;
+    }
+    .list-menu-table .info {
+        text-align: center;
+    }
+    .list-menu-table .info .name {
+        padding-left: 0;
+    }
+    .our-team-wrapper .our-team-socials {
+        position: absolute;
+        z-index: 9;
+        left: calc(50% + 15px);
+
+        box-sizing: content-box;
+        width: 320px;
+        height: 320px;
+        padding: 0;
+
+        list-style: none;
+
+        border-radius: 50%;
+    }
+    .our-team-wrapper .our-team-socials .link {
+        opacity: 1;
+    }
+    .our-team-wrapper .our-team-socials > * {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        display: block;
+
+        width: 40px;
+        height: 40px;
+        margin: -20px;
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(18) {
+        -webkit-transform: rotate(400deg) translate(150px) rotate(-400deg);
+           -moz-transform: rotate(400deg) translate(150px) rotate(-400deg);
+            -ms-transform: rotate(400deg) translate(150px) rotate(-400deg);
+             -o-transform: rotate(400deg) translate(150px) rotate(-400deg);
+                transform: rotate(400deg) translate(150px) rotate(-400deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(17) {
+        -webkit-transform: rotate(380deg) translate(150px) rotate(-380deg);
+           -moz-transform: rotate(380deg) translate(150px) rotate(-380deg);
+            -ms-transform: rotate(380deg) translate(150px) rotate(-380deg);
+             -o-transform: rotate(380deg) translate(150px) rotate(-380deg);
+                transform: rotate(380deg) translate(150px) rotate(-380deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(16) {
+        -webkit-transform: rotate(360deg) translate(150px) rotate(-360deg);
+           -moz-transform: rotate(360deg) translate(150px) rotate(-360deg);
+            -ms-transform: rotate(360deg) translate(150px) rotate(-360deg);
+             -o-transform: rotate(360deg) translate(150px) rotate(-360deg);
+                transform: rotate(360deg) translate(150px) rotate(-360deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(15) {
+        -webkit-transform: rotate(340deg) translate(150px) rotate(-340deg);
+           -moz-transform: rotate(340deg) translate(150px) rotate(-340deg);
+            -ms-transform: rotate(340deg) translate(150px) rotate(-340deg);
+             -o-transform: rotate(340deg) translate(150px) rotate(-340deg);
+                transform: rotate(340deg) translate(150px) rotate(-340deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(14) {
+        -webkit-transform: rotate(320deg) translate(150px) rotate(-320deg);
+           -moz-transform: rotate(320deg) translate(150px) rotate(-320deg);
+            -ms-transform: rotate(320deg) translate(150px) rotate(-320deg);
+             -o-transform: rotate(320deg) translate(150px) rotate(-320deg);
+                transform: rotate(320deg) translate(150px) rotate(-320deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(13) {
+        -webkit-transform: rotate(300deg) translate(150px) rotate(-300deg);
+           -moz-transform: rotate(300deg) translate(150px) rotate(-300deg);
+            -ms-transform: rotate(300deg) translate(150px) rotate(-300deg);
+             -o-transform: rotate(300deg) translate(150px) rotate(-300deg);
+                transform: rotate(300deg) translate(150px) rotate(-300deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(12) {
+        -webkit-transform: rotate(280deg) translate(150px) rotate(-280deg);
+           -moz-transform: rotate(280deg) translate(150px) rotate(-280deg);
+            -ms-transform: rotate(280deg) translate(150px) rotate(-280deg);
+             -o-transform: rotate(280deg) translate(150px) rotate(-280deg);
+                transform: rotate(280deg) translate(150px) rotate(-280deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(11) {
+        -webkit-transform: rotate(260deg) translate(150px) rotate(-260deg);
+           -moz-transform: rotate(260deg) translate(150px) rotate(-260deg);
+            -ms-transform: rotate(260deg) translate(150px) rotate(-260deg);
+             -o-transform: rotate(260deg) translate(150px) rotate(-260deg);
+                transform: rotate(260deg) translate(150px) rotate(-260deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(10) {
+        -webkit-transform: rotate(240deg) translate(150px) rotate(-240deg);
+           -moz-transform: rotate(240deg) translate(150px) rotate(-240deg);
+            -ms-transform: rotate(240deg) translate(150px) rotate(-240deg);
+             -o-transform: rotate(240deg) translate(150px) rotate(-240deg);
+                transform: rotate(240deg) translate(150px) rotate(-240deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(9) {
+        -webkit-transform: rotate(220deg) translate(150px) rotate(-220deg);
+           -moz-transform: rotate(220deg) translate(150px) rotate(-220deg);
+            -ms-transform: rotate(220deg) translate(150px) rotate(-220deg);
+             -o-transform: rotate(220deg) translate(150px) rotate(-220deg);
+                transform: rotate(220deg) translate(150px) rotate(-220deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(8) {
+        -webkit-transform: rotate(200deg) translate(150px) rotate(-200deg);
+           -moz-transform: rotate(200deg) translate(150px) rotate(-200deg);
+            -ms-transform: rotate(200deg) translate(150px) rotate(-200deg);
+             -o-transform: rotate(200deg) translate(150px) rotate(-200deg);
+                transform: rotate(200deg) translate(150px) rotate(-200deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(7) {
+        -webkit-transform: rotate(180deg) translate(150px) rotate(-180deg);
+           -moz-transform: rotate(180deg) translate(150px) rotate(-180deg);
+            -ms-transform: rotate(180deg) translate(150px) rotate(-180deg);
+             -o-transform: rotate(180deg) translate(150px) rotate(-180deg);
+                transform: rotate(180deg) translate(150px) rotate(-180deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(6) {
+        -webkit-transform: rotate(160deg) translate(150px) rotate(-160deg);
+           -moz-transform: rotate(160deg) translate(150px) rotate(-160deg);
+            -ms-transform: rotate(160deg) translate(150px) rotate(-160deg);
+             -o-transform: rotate(160deg) translate(150px) rotate(-160deg);
+                transform: rotate(160deg) translate(150px) rotate(-160deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(5) {
+        -webkit-transform: rotate(140deg) translate(150px) rotate(-140deg);
+           -moz-transform: rotate(140deg) translate(150px) rotate(-140deg);
+            -ms-transform: rotate(140deg) translate(150px) rotate(-140deg);
+             -o-transform: rotate(140deg) translate(150px) rotate(-140deg);
+                transform: rotate(140deg) translate(150px) rotate(-140deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(4) {
+        -webkit-transform: rotate(120deg) translate(150px) rotate(-120deg);
+           -moz-transform: rotate(120deg) translate(150px) rotate(-120deg);
+            -ms-transform: rotate(120deg) translate(150px) rotate(-120deg);
+             -o-transform: rotate(120deg) translate(150px) rotate(-120deg);
+                transform: rotate(120deg) translate(150px) rotate(-120deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(3) {
+        -webkit-transform: rotate(100deg) translate(150px) rotate(-100deg);
+           -moz-transform: rotate(100deg) translate(150px) rotate(-100deg);
+            -ms-transform: rotate(100deg) translate(150px) rotate(-100deg);
+             -o-transform: rotate(100deg) translate(150px) rotate(-100deg);
+                transform: rotate(100deg) translate(150px) rotate(-100deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(2) {
+        -webkit-transform: rotate(80deg) translate(150px) rotate(-80deg);
+           -moz-transform: rotate(80deg) translate(150px) rotate(-80deg);
+            -ms-transform: rotate(80deg) translate(150px) rotate(-80deg);
+             -o-transform: rotate(80deg) translate(150px) rotate(-80deg);
+                transform: rotate(80deg) translate(150px) rotate(-80deg);
+    }
+    .our-team-wrapper .our-team-socials > *:nth-of-type(1) {
+        -webkit-transform: rotate(60deg) translate(150px) rotate(-60deg);
+           -moz-transform: rotate(60deg) translate(150px) rotate(-60deg);
+            -ms-transform: rotate(60deg) translate(150px) rotate(-60deg);
+             -o-transform: rotate(60deg) translate(150px) rotate(-60deg);
+                transform: rotate(60deg) translate(150px) rotate(-60deg);
+    }
+    .our-team-wrapper .our-team-info {
+        margin-top: 45px;
+    }
+    .wrapper-cup-parallax .infomation .title {
+        background-color: transparent;
+    }
+    .wrapper-cup-parallax .infomation .title:before {
+        content: none;
+    }
+    .wrapper-cup-parallax .infomation .icons {
+        display: none !important;
+    }
+    .wrapper-cup-parallax .infomation .more-infomation {
+        display: block;
+    }
+    .wrapper-cup-parallax .infomation .more-infomation .description {
+        display: none;
+    }
+    .wrapper-cup-parallax .infomation .more-infomation .btn-readmore {
+        margin-top: 0;
+    }
+    /********************* HOME PAGE 2 ***********************/
+
+    .background-slide .slide-item .img-background {
+        right: 0;
+        left: auto;
+
+        max-width: none;
+        height: 100%;
+    }
+    .about-us-wrapper-2 .about-center {
+        -webkit-transform: translateY(30%);
+           -moz-transform: translateY(30%);
+            -ms-transform: translateY(30%);
+             -o-transform: translateY(30%);
+                transform: translateY(30%);
+    }
+    /********************* HOME PAGE 3 ***********************/
+
+    .homepage-parallax .img-background {
+        max-width: none;
+        height: calc(100% + 150px);
+    }
+    /********************* ABOUT ***********************/
+
+    .about-us-3 .right-image {
+        right: 0;
+        left: auto;
+
+        width: 38%;
+    }
+    /********************* RESERVATION ***********************/
+
+    .free-delivery-wrapper {
+        max-width: 550px;
+    }
+    .free-delivery .wrapper-images {
+        right: 0;
+        left: auto;
+
+        max-width: 420px;
+    }
+    /********************* MENU LIST ***********************/
+
+    .banner-discount .wrapper-images {
+        right: 0;
+        left: auto;
+
+        width: 100%;
+        max-width: 400px;
+    }
+    /********************* BLOG DETAIL ***********************/
+
+    .blog-detail-wrapper .video-thumnail-wrap {
+        float: none;
+    }
+    .blog-detail-wrapper .blog-detail-list {
+        margin-bottom: 25px;
+    }
+    .tags .list-tag .name {
+        box-shadow: 2px 3.5px 10px 0 rgba(0, 0, 0, .1);
+    }
+}
+
+/*----------  1.2. Media screen max width 768px  ----------*/
+
+@media screen and (max-width: 768px) {
+    /********************* LAYOUT ***********************/
+
+    .header-main .logo-wrapper .logo img {
+        max-width: 110px;
+    }
+    .navigation .nav-links .main-menu {
+        font-size: 13px;
+
+        margin: 0 12px;
+    }
+    .navigation .nav-links li + li:before {
+        content: none;
+    }
+    .button-search .main-menu {
+        margin-right: 0;
+        margin-left: 18px;
+    }
+    .sidebar {
+        margin-top: 100px;
+    }
+    .sidebar .col-1 {
+        width: 100%;
+    }
+    .sidebar .col-2 {
+        float: left;
+
+        width: 50%;
+    }
+    .sidebar .col-2 .widget:last-child {
+        margin-bottom: 0;
+    }
+    .sidebar .col-2:nth-child(even) {
+        padding-right: 15px;
+    }
+    .sidebar .col-2:nth-child(odd) {
+        padding-left: 15px;
+    }
+    .main-right {
+        float: left;
+    }
+    .footer-wrapper .col-2 {
+        display: inline-block;
+
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-wrapper .col-2:last-child {
+        margin-bottom: 0;
+    }
+    /********************* HOME PAGE ***********************/
+
+    .about-us-wrapper .left-infomation {
+        width: 100%;
+    }
+    .about-us-wrapper .right-image {
+        display: none;
+    }
+    .banner-1-wrapper .content-wrapepr {
+        width: 100%;
+        padding: 50px 30px;
+    }
+    .list-menu-table .info {
+        text-align: left;
+    }
+    .list-menu-table .info .name {
+        padding-left: 15px;
+    }
+    .special-menu .list-menu .col-md-6.col-xs-12,
+    .wrapper-list-menu .list-menu .col-md-6.col-xs-12 {
+        margin-top: 50px;
+    }
+    .special-menu .list-menu .col-md-6.col-xs-12:first-child,
+    .wrapper-list-menu .list-menu .col-md-6.col-xs-12:first-child {
+        margin-top: 0;
+    }
+    .coming-soon-wrapper .left-infomation,
+    .coming-soon-wrapper .right-infomation {
+        display: block;
+
+        width: 100%;
+        padding: 0;
+    }
+    .coming-soon-wrapper .left-infomation {
+        margin-bottom: 50px;
+    }
+    .our-team-list {
+        margin: 0 -10px;
+    }
+    .our-team-list .item {
+        padding: 0 10px;
+    }
+    .testimonial .slick-dots {
+        top: auto;
+        right: auto;
+        bottom: -35px;
+        left: auto;
+
+        width: 100%;
+        margin: 0;
+    }
+    .testimonial .slick-dots li {
+        display: inline-block;
+
+        margin: 0 5px;
+    }
+    .testimonial-item .description {
+        padding: 0 10px;
+    }
+    .blogs-list .col-md-6 {
+        margin-top: 100px;
+    }
+    .blogs-list .col-md-6:first-child {
+        margin-top: 0;
+    }
+    /********************* HOME PAGE 2 ***********************/
+
+    .about-us-wrapper-2 .about-left,
+    .about-us-wrapper-2 .about-right {
+        width: 50%;
+    }
+    .about-us-wrapper-2 .about-center {
+        display: none;
+    }
+    .rise-grind-wrapper .title {
+        font-size: 6rem;
+    }
+    .content-menu .row .col-md-4 {
+        margin-top: 30px;
+    }
+    .content-menu .row .col-md-4:nth-child(-n + 3) {
+        margin-top: 30px;
+    }
+    .content-menu .row .col-md-4:nth-child(-n + 2) {
+        margin-top: 0;
+    }
+    .menu-items.style-1 .name {
+        margin-top: 5px;
+    }
+    .menu-items.style-1 .price {
+        margin-top: 5px;
+    }
+    /********************* HOME PAGE 3 ***********************/
+
+    .high-quality-wrapper .title {
+        font-size: 4.5rem;
+    }
+    .high-quality-wrapper .subtitle {
+        font-size: 4rem;
+    }
+    .high-quality-wrapper .group-btn {
+        margin-top: 30px;
+    }
+    .content-menu .row .col-md-6 {
+        margin-top: 30px;
+    }
+    .content-menu .row .col-md-6:nth-child(-n + 2) {
+        margin-top: 30px;
+    }
+    .content-menu .row .col-md-6:first-child {
+        margin-top: 0;
+    }
+    /********************* ABOUT ***********************/
+
+    .about-us-3 .left-infomation .content-wrapper {
+        width: 100%;
+    }
+    .about-us-3 .right-image {
+        display: none;
+    }
+    /********************* RESERVATION ***********************/
+
+    .free-delivery-wrapper {
+        max-width: none;
+    }
+    .free-delivery-wrapper .title {
+        font-size: 6rem;
+    }
+    .free-delivery .wrapper-images {
+        display: none;
+    }
+    /********************* MENU LIST ***********************/
+
+    .banner-discount .wrapper-images {
+        display: none;
+    }
+    .banner-discount-wrapper {
+        width: 100%;
+
+        text-align: center;
+    }
+    .banner-discount-wrapper .wrapper-table {
+        margin: 0 auto;
+    }
+}
+
+/*----------  1.3. Media screen max width 767px  ----------*/
+
+@media screen and (max-width: 767px) {
+    /********************* LAYOUT ***********************/
+
+    .padding-top-100 {
+        padding-top: 60px;
+    }
+    .padding-bottom-100 {
+        padding-bottom: 60px;
+    }
+    .margin-top-70 {
+        margin-top: 50px;
+    }
+    .margin-top-50 {
+        margin-top: 30px;
+    }
+    .sidebar {
+        margin-top: 60px;
+    }
+    .sidebar .widget {
+        margin-bottom: 30px;
+    }
+    .header-main .navigation {
+        display: none;
+    }
+    .header-main.header-fixed .hamburger-menu-mobile .icons,
+    .header-main.header-fixed .button-search-mobile .icons {
+        line-height: 50px;
+    }
+    .hamburger-menu-mobile,
+    .button-search-mobile {
+        display: block;
+    }
+    .header-main-wrapper {
+        position: relative;
+    }
+    .logo-wrapper {
+        position: absolute;
+        left: 50%;
+
+        margin-left: -55px;
+    }
+    .main-titles {
+        margin-bottom: 40px;
+    }
+    .main-titles .main-title {
+        font-size: 4rem;
+    }
+    .main-titles .sub-title {
+        font-size: 1.8rem;
+    }
+    .footer {
+        position: relative;
+
+        display: block;
+
+        width: auto;
+        height: auto;
+    }
+    .footer .footer-wrapper {
+        display: block;
+    }
+    .footer .footer-main {
+        padding: 60px 0 80px 0;
+    }
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+    .footer-subscribe {
+        margin-bottom: 60px;
+    }
+    .footer-wrapper .widget .content-widget {
+        margin-top: 30px;
+    }
+    .hyperlink {
+        padding: 15px 0;
+    }
+    /********************* HOME PAGE ***********************/
+
+    .homepage-banner,
+    .banner,
+    .image-event-2 {
+        background-attachment: scroll;
+    }
+    .homepage-banner,
+    .background-slide .slide-item,
+    .homepage-parallax {
+        min-height: 667px;
+    }
+    .homepage-default .homepage-banner-content {
+        padding-top: 100px;
+    }
+    .homepage-default .main-title .text {
+        font-size: 2.6rem;
+    }
+    .wrapper-cup-parallax .infomation .heading {
+        padding: 0;
+    }
+    .wrapper-cup-parallax .infomation .heading .title {
+        font-size: 1.8rem;
+    }
+    .wrapper-cup-parallax .infomation .number {
+        font-size: 4.5rem;
+    }
+    .banner-1-wrapper .content-wrapepr .title {
+        font-size: 4.5rem;
+    }
+    .name-menu.style-1,
+    .name-menu.style-2 {
+        margin-top: 0;
+    }
+    .name-menu .image-menu {
+        display: none;
+    }
+    .name-menu .infomation-menu {
+        width: calc(100% - 15px);
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .infomation-menu-wrapper {
+        padding: 30px;
+    }
+    .infomation-menu-wrapper .title {
+        font-size: 1.8rem;
+    }
+    /********************* HOME PAGE 2 ***********************/
+
+    .background-slide .homepage-banner-content {
+        text-align: center;
+    }
+    .background-slide .title {
+        font-size: 2.6rem;
+    }
+    .background-slide .subtitle {
+        margin-top: 5px;
+    }
+    .background-slide .group-btn {
+        margin-top: 30px;
+    }
+    .rise-grind-wrapper .title {
+        font-size: 4.5rem;
+    }
+    .rise-grind-wrapper .description {
+        margin-top: 0;
+    }
+    .rise-grind-wrapper .group-btn {
+        margin-top: 30px;
+    }
+    .count-number .col-sm-3:nth-last-child(-n + 2) {
+        margin-top: 40px;
+    }
+    .tab-menu {
+        margin-bottom: 30px;
+    }
+    .tab-menu li {
+        margin-bottom: 20px;
+    }
+    .menu-items.style-1 .wrapper-images {
+        width: 100%;
+        height: auto;
+    }
+    .homepage-parallax .homepage-banner-content {
+        padding-top: 100px;
+    }
+    /********************* HOME PAGE 3 ***********************/
+
+    .homepage-parallax .title {
+        font-size: 5rem;
+    }
+    .high-quality-wrapper .title {
+        font-size: 4rem;
+    }
+    .high-quality-wrapper .subtitle {
+        font-size: 3rem;
+    }
+    /********************* ABOUT ***********************/
+
+    .main-titles-2 {
+        margin-bottom: 40px;
+    }
+    .image-event-2 {
+        height: 310px;
+        min-height: 310px;
+    }
+    .morepage-banner {
+        padding: 200px 0 100px 0;
+    }
+    /********************* CONTACT US ***********************/
+
+    .contact-us .col-sm-4 {
+        margin-top: 30px;
+    }
+    .contact-us .col-sm-4:first-child {
+        margin-top: 0;
+    }
+    .contact-form .col-sm-4 {
+        margin-top: 30px;
+    }
+    .contact-form .col-sm-4:first-child {
+        margin-top: 0;
+    }
+    /********************* 404 ***********************/
+
+    .page-404 .title {
+        font-size: 3rem;
+    }
+}
+
+/*----------  1.4. Media screen max width 600px  ----------*/
+
+@media screen and (max-width: 600px) {
+    /********************* LAYOUT ***********************/
+
+    html {
+        font-size: 12px;
+    }
+    .header-topbar .topbar-right {
+        display: none;
+    }
+    .header-topbar .topbar-left > li {
+        padding: 0 10px;
+    }
+    .sidebar .col-1 {
+        width: 100%;
+    }
+    .sidebar .col-2 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sidebar .col-2:last-child {
+        margin-bottom: 0;
+    }
+    .sidebar .col-2:nth-child(even) {
+        padding-right: 0;
+    }
+    .sidebar .col-2:nth-child(odd) {
+        padding-left: 0;
+    }
+    .mb-nav .main-menu {
+        font-size: 16px;
+    }
+    /********************* HOME PAGE ***********************/
+
+    .homepage-default .img-logo img {
+        max-width: 150px;
+    }
+    .wrapper-cup-parallax {
+        height: 500px;
+    }
+    .wrapper-cup-parallax .img-cup {
+        position: absolute;
+        z-index: 3;
+        bottom: 0;
+        left: 50%;
+
+        -webkit-transform: translateX(-50%);
+           -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+             -o-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+    .wrapper-cup-parallax .img-coffee-1 {
+        position: absolute;
+        z-index: 2;
+        top: 13%;
+        left: 15%;
+    }
+    .wrapper-cup-parallax .img-coffee-2 {
+        position: absolute;
+        z-index: 2;
+        top: 20%;
+        left: 60%;
+    }
+    .wrapper-cup-parallax .img-coffee-3 {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 85%;
+    }
+    .wrapper-cup-parallax .img-sugar-1 {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 37%;
+    }
+    .wrapper-cup-parallax .img-sugar-2 {
+        position: absolute;
+        z-index: 2;
+        top: 20%;
+        left: 40%;
+    }
+    .wrapper-cup-parallax .img-water-1 {
+        position: absolute;
+        z-index: 2;
+        top: 20%;
+        right: 12%;
+    }
+    .wrapper-cup-parallax .img-water-2 {
+        position: absolute;
+        z-index: 2;
+        top: 26%;
+        left: 16%;
+    }
+    .wrapper-cup-parallax .img-water-3 {
+        position: absolute;
+        z-index: 2;
+        top: 28%;
+        left: 28%;
+    }
+    .wrapper-cup-parallax .img-water-4 {
+        position: absolute;
+        z-index: 2;
+        top: 38%;
+        left: 16%;
+    }
+    .wrapper-cup-parallax .img-water-5 {
+        position: absolute;
+        z-index: 2;
+        top: 24%;
+        right: 18%;
+    }
+    .wrapper-cup-parallax .infomation {
+        width: 50%;
+        padding: 0 15px;
+    }
+    .wrapper-cup-parallax .infomation.layout-1 {
+        top: auto;
+        bottom: -20px;
+    }
+    .wrapper-cup-parallax .infomation.layout-3 {
+        top: auto;
+        bottom: -200px;
+    }
+    .wrapper-cup-parallax .infomation.layout-2 {
+        top: auto;
+        bottom: 0;
+    }
+    .wrapper-cup-parallax .infomation.layout-4 {
+        top: auto;
+        bottom: -240px;
+    }
+    .special-coffee .main-content {
+        padding-bottom: 300px;
+    }
+    .banner-1-wrapper .content-wrapepr {
+        padding: 30px;
+    }
+    /********************* HOME PAGE 2 ***********************/
+
+    .about-us-wrapper-2 .about-left,
+    .about-us-wrapper-2 .about-right {
+        width: 100%;
+        padding: 0;
+    }
+    .about-us-wrapper-2 .about-left {
+        margin-bottom: 30px;
+    }
+    .about-us-wrapper-2 .about-us-item-wrapper {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .count-number-item .icons {
+        font-size: 4rem;
+    }
+    .count-number-item .number .count {
+        font-size: 2.4rem;
+    }
+    /********************* ABOUT ***********************/
+
+    .main-titles-2 .title {
+        font-size: 2rem;
+    }
+    /********************* GALLERY ***********************/
+
+    .gallery-wrapper .tab-menu {
+        margin-bottom: 20px;
+    }
+    .gallery-wrapper .tab-menu li {
+        display: inline-block;
+
+        width: auto;
+    }
+    .gallery-wrapper .tab-menu .name {
+        line-height: 1.2;
+
+        height: auto;
+        padding: 8px 20px;
+    }
+    .grid-item-wrapper {
+        width: 50%;
+    }
+}
+
+/*----------  1.5. Media screen max width 480px  ----------*/
+
+@media screen and (max-width: 480px) {
+    /********************* LAYOUT ***********************/
+
+    .group-btn .btn-left {
+        display: block;
+
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .group-btn .btn-right {
+        display: block;
+
+        margin: 0 auto;
+    }
+    .book-table .form-group .col-sm-6,
+    .book-table-2 .form-group .col-sm-6,
+    .book-table-3 .form-group .col-sm-6,
+    .book-table-4 .form-group .col-sm-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .book-table .form-group .col-sm-6:nth-last-child(-n + 2),
+    .book-table-2 .form-group .col-sm-6:nth-last-child(-n + 2),
+    .book-table-3 .form-group .col-sm-6:nth-last-child(-n + 2),
+    .book-table-4 .form-group .col-sm-6:nth-last-child(-n + 2) {
+        margin-bottom: 20px;
+    }
+    .book-table .form-group .col-sm-6:last-child,
+    .book-table-2 .form-group .col-sm-6:last-child,
+    .book-table-3 .form-group .col-sm-6:last-child,
+    .book-table-4 .form-group .col-sm-6:last-child {
+        margin-bottom: 0;
+    }
+    .footer .footer-main {
+        padding-top: 60px;
+    }
+    .footer-wrapper .col-2 .col-md-3 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .footer-wrapper .col-2 .col-md-3:last-child {
+        margin-bottom: 0;
+    }
+    .pagination li .previous,
+    .pagination li .next {
+        margin: 0 10px;
+        padding: 0 10px;
+    }
+    /********************* HOME PAGE ***********************/
+
+    .homepage-default .main-title .text {
+        font-size: 2.4rem;
+    }
+    .wrapper-cup-parallax .infomation {
+        width: 300px;
+        padding: 0 15px;
+    }
+    .wrapper-cup-parallax .infomation.layout-1 {
+        top: auto;
+        bottom: -20px;
+    }
+    .wrapper-cup-parallax .infomation.layout-3 {
+        top: auto;
+        bottom: -220px;
+    }
+    .wrapper-cup-parallax .infomation.layout-2 {
+        top: auto;
+        bottom: -60px;
+    }
+    .wrapper-cup-parallax .infomation.layout-4 {
+        top: auto;
+        bottom: -320px;
+    }
+    .wrapper-cup-parallax .infomation .more-infomation {
+        margin-top: 0;
+    }
+    .special-coffee .main-content {
+        padding-bottom: 380px;
+    }
+    .list-menu-table .info {
+        text-align: center;
+    }
+    .list-menu-table .info .name {
+        padding-left: 0;
+    }
+    .list-menu-table .price {
+        width: 75px;
+    }
+    .blogs-wrapper .image-wrapper .label-time {
+        top: -30px;
+
+        width: 65px;
+    }
+    .blogs-wrapper .image-wrapper .label-time .day {
+        font-size: 1.8rem;
+    }
+    .blogs-wrapper .image-wrapper .label-time .month {
+        font-size: 1rem;
+        line-height: 1;
+    }
+    .blogs-list {
+        padding-top: 30px;
+    }
+    .blogs-list .col-md-6 {
+        margin-top: 60px;
+    }
+    /********************* HOME PAGE 2 ***********************/
+
+    .background-slide .title {
+        font-size: 2.4rem;
+    }
+    /********************* ABOUT ***********************/
+
+    .about-us-3 .left-infomation .group-list .col-xs-6 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .image-event-2 {
+        height: 250px;
+        min-height: 250px;
+    }
+    /********************* RESERVATION ***********************/
+
+    .free-delivery-wrapper .title {
+        font-size: 4.5rem;
+    }
+    /********************* BLOG LIST ***********************/
+
+    .blog-wrapper .blogs-wrapper {
+        margin-top: 60px;
+    }
+    .blog-wrapper .blogs-wrapper:first-child {
+        margin-top: 30px;
+    }
+    .video-thumbnail .video-button-play {
+        font-size: 1.2rem;
+        line-height: 36px;
+
+        width: 40px;
+        height: 40px;
+    }
+    .blogs-wrapper .image-wrapper blockquote {
+        padding: 50px 20px 20px 20px;
+    }
+    /********************* BLOG DETAIL ***********************/
+
+    .blogs-wrapper .content-wrapper .text {
+        margin-bottom: 20px;
+    }
+    .blog-detail-wrapper blockquote,
+    .blog-detail-wrapper .blog-detail-list {
+        margin-bottom: 20px;
+    }
+    .blog-author {
+        text-align: center;
+    }
+    .blog-author .media-left {
+        display: inline-block;
+
+        width: auto;
+        padding: 0 0 20px 0;
+
+        vertical-align: top;
+    }
+    .blog-author .media-right {
+        display: block;
+
+        width: 100%;
+        padding: 0;
+
+        text-align: center;
+    }
+    .blog-author .media-right:before {
+        display: none;
+    }
+    .blog-comment .comment-list .parent {
+        margin-bottom: 20px;
+        padding: 20px;
+
+        background-color: #f9f9f9;
+    }
+    .blog-comment .comment-list .comment-list-children {
+        margin-left: 0;
+    }
+    .blog-comment .comment-list .comment-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .leave-comment {
+        margin-top: 50px;
+    }
+    .leave-comment .comment-form .col-50 {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 0 !important;
+    }
+    .leave-comment .comment-form .col-50:last-child {
+        margin-bottom: 0;
+    }
+    /********************* 404 ***********************/
+
+    .page-404 {
+        background-size: contain;
+    }
+    .page-404 .title {
+        margin-bottom: 20px;
+    }
+}
+
+/*----------  1.6. Media screen max width 414px  ----------*/
+
+@media screen and (max-width: 414px) {
+    /********************* LAYOUT ***********************/
+
+    .mb-search {
+        padding-top: 25%;
+    }
+    /********************* HOME PAGE ***********************/
+
+    .banner-1-wrapper .content-wrapepr .title {
+        font-size: 4rem;
+    }
+    .list-menu-table {
+        display: none;
+    }
+    .list-menu-table-mobile {
+        display: block;
+    }
+    .coming-soon-event-wrapper .coming-soon-count .count-wrapper {
+        padding: 10px;
+    }
+    .coming-soon-event-wrapper .btn {
+        margin-top: 20px;
+    }
+    .coming-soon-event-wrapper .coming-soon-count {
+        margin-top: 20px;
+    }
+    /********************* HOME PAGE ***********************/
+
+    .menu-items.style-2 .item-image {
+        display: inline-block;
+
+        width: 120px;
+    }
+    /********************* ABOUT ***********************/
+
+    .coming-soon-wrapper .left-infomation {
+        margin-bottom: 30px;
+    }
+    /********************* LIST MENU ***********************/
+
+    .banner-discount-wrapper .wrapper-table .title {
+        font-size: 2.6rem;
+    }
+    .banner-discount-wrapper .wrapper-table .number {
+        font-size: 4.5rem;
+    }
+    /********************* 404 ***********************/
+
+    .page-404 .title {
+        margin-top: 50px;
+    }
+}
+
+/*----------  1.7. Media screen max width 380px  ----------*/
+
+@media screen and (max-width: 380px) {
+    /********************* LAYOUT ***********************/
+
+    .mb-nav {
+        padding: 20px 10px 0 10px;
+    }
+    .footer-wrapper .widget .content-widget {
+        margin-top: 20px;
+    }
+    .main-titles {
+        margin-bottom: 30px;
+    }
+    .social-footer {
+        display: none;
+    }
+    /********************* HOME PAGE ***********************/
+
+    .about-us-wrapper .left-infomation .text {
+        margin-top: 20px;
+    }
+    .banner-1-wrapper .content-wrapepr {
+        padding: 15px;
+    }
+    .list-menu-table-mobile .price {
+        width: 100px;
+    }
+    .list-menu-table-mobile .price .sizes .title {
+        width: 40px;
+    }
+    .infomation-menu-wrapper {
+        padding: 20px 20px 30px 20px;
+    }
+    .blogs-wrapper .content-wrapper {
+        margin-top: 30px;
+    }
+    .blogs-wrapper .content-wrapper .info {
+        margin-bottom: 10px;
+    }
+    .wrapper-cup-parallax {
+        height: 400px;
+    }
+    /******************** HOME PAGE 2 **********************/
+
+    /******************** HOME PAGE 3 **********************/
+
+    .homepage-parallax .title {
+        font-size: 4rem;
+    }
+    /******************** ABOUT **********************/
+
+    .morepage-banner {
+        padding: 160px 0 60px 0;
+    }
+    .main-titles-2 {
+        margin-bottom: 30px;
+    }
+    .main-titles-2 .title {
+        padding-left: 35px;
+    }
+    .main-titles-2 .title:before {
+        right: calc(100% - 26px);
+
+        width: 20px;
+    }
+    .main-titles-2 .title:after {
+        right: calc(100% - 26px);
+
+        width: 40px;
+    }
+    /******************** RESERVATION **********************/
+
+    .free-delivery-wrapper .subtitle {
+        font-size: 1.2rem;
+    }
+    /******************** GALLERY **********************/
+
+    .description-gallery .title {
+        font-size: 1.8rem;
+    }
+    .grid-gallery {
+        margin: 0 -7px;
+    }
+    .grid-item-wrapper .grid-item {
+        top: 7px;
+        right: 7px;
+        bottom: 7px;
+        left: 7px;
+    }
+    /******************** BLOG **********************/
+
+    /******************** EVENT **********************/
+}
+
+/*----------  1.8. Media screen max width 320px  ----------*/
+
+@media screen and (max-width: 320px) {
+    /********************* LAYOUT ***********************/
+
+    .header-topbar {
+        display: none;
+    }
+    .homepage-default .homepage-banner-content {
+        padding-top: 60px;
+    }
+    .mb-nav {
+        padding: 20px 5px 0 5px;
+    }
+    .pagination li .btn-pagination {
+        margin: 0;
+    }
+    /********************* HOME PAGE *********************/
+
+    .banner-1-wrapper .content-wrapepr .title {
+        font-size: 3.2rem;
+    }
+    .wrapper-cup-parallax {
+        height: 350px;
+    }
+    .wrapper-cup-parallax .img-coffee-1 {
+        top: 13%;
+        left: 15%;
+
+        width: 30px;
+    }
+    .wrapper-cup-parallax .img-coffee-2 {
+        top: 20%;
+        left: 60%;
+
+        width: 28px;
+    }
+    .wrapper-cup-parallax .img-coffee-3 {
+        top: 0;
+        left: 85%;
+
+        width: 30px;
+    }
+    .wrapper-cup-parallax .img-sugar-1 {
+        top: 0;
+        left: 37%;
+
+        width: 40px;
+    }
+    .wrapper-cup-parallax .img-sugar-2 {
+        top: 20%;
+        left: 40%;
+
+        width: 52px;
+    }
+    .wrapper-cup-parallax .img-water-1 {
+        top: 20%;
+        right: 12%;
+    }
+    .wrapper-cup-parallax .img-water-2 {
+        top: 26%;
+        left: 16%;
+    }
+    .wrapper-cup-parallax .img-water-3 {
+        top: 28%;
+        left: 28%;
+    }
+    .wrapper-cup-parallax .img-water-4 {
+        top: 38%;
+        left: 16%;
+    }
+    .wrapper-cup-parallax .img-water-5 {
+        top: 24%;
+        right: 18%;
+    }
+    .wrapper-cup-parallax .infomation.layout-1 {
+        top: auto;
+    }
+    .wrapper-cup-parallax .infomation.layout-3 {
+        top: auto;
+    }
+    .wrapper-cup-parallax .infomation.layout-2 {
+        top: auto;
+    }
+    .wrapper-cup-parallax .infomation.layout-4 {
+        top: auto;
+    }
+    /********************* HOME PAGE 3 *********************/
+
+    .menu-items.style-2 .item-image {
+        display: block;
+
+        margin: 0 auto;
+    }
+    .menu-items.style-2 .item-content {
+        display: block;
+
+        padding-left: 0;
+    }
+    .image-event-2 {
+        height: 200px;
+        min-height: 200px;
+    }
+    /********************* GALLERY *********************/
+
+    .gallery-wrapper .tab-menu .name {
+        padding: 8px 10px;
+    }
+}
